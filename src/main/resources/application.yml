@@ -1,0 +1,21 @@
+# Pass git credentials to JAR as system variables:
+# mvn clean install
+# cd target/
+# java -jar spring-cloud-config-server-0.0.1-SNAPSHOT.jar --git.username=username --git.password=password
+# Verify at http://localhost:8888/application/default
+
+git:
+  username:
+  password:
+
+spring:
+  cloud:
+   config:
+    server:
+     git:
+      uri: https://github.com/Lylio/config-repo
+      username: ${git.username}
+      password: ${git.password}
+
+server:
+  port: 8888
