@@ -1,5 +1,5 @@
-# Spring Cloud Config Server
+# Chinook
 
-Configuration server for microservice and web application properties.
+Spring Cloud Config Server: configuration server for microservice and web application properties.
 
 ![logos](img/logo.png)
