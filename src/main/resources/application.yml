@@ -1,10 +1,11 @@
 # Pass git credentials to JAR as system variables:
-# mvn clean install
-# cd target/
-# java -jar spring-cloud-config-server-0.0.1-SNAPSHOT.jar --git.username=username --git.password=password
-# Verify at http://localhost:8888/application/default
+# 1. mvn clean install
+# 2. cd target/
+# 3. java -jar chinook-0.0.1-SNAPSHOT.jar --git.username=username --git.password=password
+# 4. Verify the config has been pulled from https://github.com/Lylio/config-repo
+# at http://localhost:8888/application/default
 
-spring.application.name: spring-cloud-config-server
+spring.application.name: chinook
 
 git:
   username:
