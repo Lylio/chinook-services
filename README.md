@@ -1,9 +1,11 @@
-# Chinook
-## Spring Cloud Config Server: configuration server for microservice and web application properties.
-
 ![Java](https://github.com/Lylio/helper-repo/blob/master/img/logos/java.png)
 ![Spring Boot](https://github.com/Lylio/helper-repo/blob/master/img/logos/spring-boot.png)
 ![Chinook](https://github.com/Lylio/helper-repo/blob/master/img/logos/chinook.png)
+
+# Chinook
+## Spring Cloud Config Server: configuration server for microservice and web application properties.
+
+https://chinook-server.herokuapp.com/application/default
 
 ### Docker Launch
 to do
