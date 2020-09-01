@@ -9,8 +9,8 @@ A centralised configuration server for microservice and web application properti
 
 ### Docker Launch
 1. `docker build -t chinook .`
-2. `docker run -e GIT_USERNAME={username} -e GIT_PASSWORD={password} -p 5555:8888 chinook:latest`
-3. Verify the config has been pulled at http://localhost:5555/application/default
+2. `docker run -e GIT_USERNAME={username} -e GIT_PASSWORD={password} -p 8888:8888 chinook:latest`
+3. Verify the config has been pulled at http://localhost:8888/application/default
  
 ### Maven Launch
  1. `mvn clean install`
