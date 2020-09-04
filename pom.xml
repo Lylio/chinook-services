@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lylechristine</groupId>
-    <artifactId>chinook</artifactId>
+    <artifactId>chinook-services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>chinook</name>
+    <name>Chinook</name>
     <description>Chinook config server</description>
 
     <properties>

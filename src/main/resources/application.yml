@@ -1,4 +1,4 @@
-spring.application.name: chinook
+spring.application.name: chinook-services
 
 git:
   username:
