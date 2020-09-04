@@ -8,7 +8,7 @@
 A centralised configuration server for microservice and web application properties. Demo available at https://chinook-server.herokuapp.com/application/default
 
 ### Docker Launch
-1. `docker build -t chinook .`
+1. `docker build -t chinook-services .`
 2. `docker run -e GIT_USERNAME={username} -e GIT_PASSWORD={password} -p 8888:8888 chinook-services:latest`
 3. Verify the config has been pulled at http://localhost:8888/application/default
  
