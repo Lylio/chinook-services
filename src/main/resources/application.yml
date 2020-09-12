@@ -1,10 +1,7 @@
-# IDENTITY
-spring.application.name: chinook-services
-
 # BANNER
 spring.banner.location: classpath:banner.txt
 
-# CONFIG REPO
+# GITHUB CREDENTIALS
 git:
   username:
   password:
