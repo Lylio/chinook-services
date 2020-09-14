@@ -15,6 +15,10 @@ spring:
       username: ${git.username}
       password: ${git.password}
 
-
 # EMBEDDED SERVER CONFIGURATION
 server.port: 8888
+
+# LOGGING
+logging:
+  file:
+    name: /home/lylio/Documents/logs/chinook.log
