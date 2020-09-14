@@ -1,3 +1,8 @@
+# LOGGING (Spring Boot 2 requires logging.file.name)
+logging:
+  file:
+    name: /home/lylio/Documents/logs/chinook.log
+
 # BANNER
 spring.banner.location: classpath:banner.txt
 
@@ -18,7 +23,4 @@ spring:
 # EMBEDDED SERVER CONFIGURATION
 server.port: 8888
 
-# LOGGING
-logging:
-  file:
-    name: /home/lylio/Documents/logs/chinook.log
+
