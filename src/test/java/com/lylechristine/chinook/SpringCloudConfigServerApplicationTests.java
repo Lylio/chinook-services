@@ -1,4 +1,4 @@
-package com.lylechristine.springcloudconfigserver;
+package com.lylechristine.chinook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
