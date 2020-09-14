@@ -8,11 +8,11 @@
         <version>2.3.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lylechristine</groupId>
+    <groupId>com.lylechristine.microservices</groupId>
     <artifactId>chinook-services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Chinook</name>
-    <description>Chinook config server</description>
+    <description>Chinook Spring Cloud config server</description>
 
     <properties>
         <java.version>1.8</java.version>

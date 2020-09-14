@@ -1,6 +1,3 @@
-# IDENTITY
-spring.application.name: chinook-services
-
 # BANNER
 spring.banner.location: classpath:banner.txt
 
