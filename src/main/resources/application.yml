@@ -16,9 +16,11 @@ spring:
    config:
     server:
      git:
+      default-label: main
       uri: https://github.com/Lylio/config-repo
       username: ${git.username}
       password: ${git.password}
+
 
 # EMBEDDED SERVER CONFIGURATION
 server.port: 8888
