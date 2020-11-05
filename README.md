@@ -18,5 +18,5 @@ e.g http://localhost:8888/chatty-services/default
  1. `mvn clean install`
  2. `cd target/`
  3. `java -jar chinook-services-0.0.1-SNAPSHOT.jar --git.username={username} --git.password={password}`
- 4. A different config file can be pulled with http://localhost:8888/<application name>/default
+ 4. A different config file can be pulled with http://localhost:8888/insert-application/default
  e.g http://localhost:8888/chatty-services/default
